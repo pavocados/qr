@@ -6,12 +6,16 @@ body {
 
 
 .qr-code-sheet {
-    width: 280px;
+    max-width: 280px;
     height:460px;
     padding:20px;
     background-color: white;
-    margin:100px auto;
     border-radius: 20px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .qrcode-image {
